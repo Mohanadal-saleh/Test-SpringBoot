@@ -7,7 +7,7 @@ import java.util.List;
 
 @Service
 public class TodoService {
-    private List<Todo> Data = Arrays.asList(
+    private final List<Todo> Data = Arrays.asList(
             new Todo(1, "First todo", "this is the first todo"),
             new Todo(2, "Second todo", "this is the second todo"),
             new Todo(3, "Third todo", "this is the third todo")
