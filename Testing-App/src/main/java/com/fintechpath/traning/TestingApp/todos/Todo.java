@@ -1,45 +1,37 @@
 package com.fintechpath.traning.TestingApp.todos;
 
-public class Todo
-{
+public class Todo {
     private int id;
     private String title;
     private String description;
 
-    public Todo (int id, String title, String description)
-    {
+    public Todo(int id, String title, String description) {
         this.id = id;
         this.title = title;
         this.description = description;
     }
 
-    public int getId ()
-    {
+    public int getId() {
         return id;
     }
 
-    public void setId (int id)
-    {
+    public void setId(int id) {
         this.id = id;
     }
 
-    public String getTitle ()
-    {
+    public String getTitle() {
         return title;
     }
 
-    public void setTitle (String title)
-    {
+    public void setTitle(String title) {
         this.title = title;
     }
 
-    public String getDescription ()
-    {
+    public String getDescription() {
         return description;
     }
 
-    public void setDescription (String description)
-    {
+    public void setDescription(String description) {
         this.description = description;
     }
 }
